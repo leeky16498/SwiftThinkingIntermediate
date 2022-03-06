@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftThinkingIntermediateApp: App {
     var body: some Scene {
         WindowGroup {
-            DragGestureClass2()
+            WeakselfClass()
         }
     }
 }

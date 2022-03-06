@@ -22,7 +22,7 @@ class arrayModificationViewModel : ObservableObject {
     
     init() {
         getUsers()
-        updateFilterArray()
+//        updateFilterArray()
     }
     
     func updateFilterArray() {
@@ -97,7 +97,7 @@ struct SortFilterMapClass: View {
             VStack(spacing: 10){
                 ForEach(vm.dataArray) { user in
                     VStack(alignment: .leading) {
-                        Text("username = \(user.name)")
+                        Text("username = \(user.name!)")
                         HStack {
                             Text("Point = \(user.points)")
                             Spacer()

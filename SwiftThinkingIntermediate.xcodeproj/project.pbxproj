@@ -22,6 +22,10 @@
 		79E94E5D27D511F300180D39 /* MaskClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E94E5C27D511F300180D39 /* MaskClass.swift */; };
 		79E94E5F27D5153600180D39 /* HashableProtocolClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E94E5E27D5153600180D39 /* HashableProtocolClass.swift */; };
 		79E94E6127D5177700180D39 /* SortFilterMapClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E94E6027D5177700180D39 /* SortFilterMapClass.swift */; };
+		79EA9CE727D531CE00C75565 /* BackgroundThreadsClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EA9CE627D531CE00C75565 /* BackgroundThreadsClass.swift */; };
+		79EA9CE927D5383500C75565 /* WeakselfClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EA9CE827D5383500C75565 /* WeakselfClass.swift */; };
+		79EA9CEB27D53CD000C75565 /* typealiasClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EA9CEA27D53CD000C75565 /* typealiasClass.swift */; };
+		79EA9CED27D53E5800C75565 /* EscapingClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EA9CEC27D53E5800C75565 /* EscapingClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +45,10 @@
 		79E94E5C27D511F300180D39 /* MaskClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskClass.swift; sourceTree = "<group>"; };
 		79E94E5E27D5153600180D39 /* HashableProtocolClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableProtocolClass.swift; sourceTree = "<group>"; };
 		79E94E6027D5177700180D39 /* SortFilterMapClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortFilterMapClass.swift; sourceTree = "<group>"; };
+		79EA9CE627D531CE00C75565 /* BackgroundThreadsClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadsClass.swift; sourceTree = "<group>"; };
+		79EA9CE827D5383500C75565 /* WeakselfClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakselfClass.swift; sourceTree = "<group>"; };
+		79EA9CEA27D53CD000C75565 /* typealiasClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = typealiasClass.swift; sourceTree = "<group>"; };
+		79EA9CEC27D53E5800C75565 /* EscapingClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +112,10 @@
 				79E94E5C27D511F300180D39 /* MaskClass.swift */,
 				79E94E5E27D5153600180D39 /* HashableProtocolClass.swift */,
 				79E94E6027D5177700180D39 /* SortFilterMapClass.swift */,
+				79EA9CE627D531CE00C75565 /* BackgroundThreadsClass.swift */,
+				79EA9CE827D5383500C75565 /* WeakselfClass.swift */,
+				79EA9CEA27D53CD000C75565 /* typealiasClass.swift */,
+				79EA9CEC27D53E5800C75565 /* EscapingClass.swift */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -179,13 +191,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				79E94E5127D4F1DD00180D39 /* RotationGestureClass.swift in Sources */,
+				79EA9CEB27D53CD000C75565 /* typealiasClass.swift in Sources */,
 				79E94E6127D5177700180D39 /* SortFilterMapClass.swift in Sources */,
 				79E94E5D27D511F300180D39 /* MaskClass.swift in Sources */,
 				79E94E5F27D5153600180D39 /* HashableProtocolClass.swift in Sources */,
+				79EA9CE727D531CE00C75565 /* BackgroundThreadsClass.swift in Sources */,
 				79E94E5927D50ADF00180D39 /* GeometryReaderClass.swift in Sources */,
+				79EA9CED27D53E5800C75565 /* EscapingClass.swift in Sources */,
 				79E94E5727D507B600180D39 /* ScrollViewReaderClass.swift in Sources */,
 				79E94E4027D4EAD800180D39 /* ContentView.swift in Sources */,
 				79E94E5327D4F2AD00180D39 /* DragGestureClass.swift in Sources */,
+				79EA9CE927D5383500C75565 /* WeakselfClass.swift in Sources */,
 				79E94E5527D4F52100180D39 /* DragGestureClass2.swift in Sources */,
 				79E94E5B27D50E1800180D39 /* MultipleSheetsClass.swift in Sources */,
 				79E94E4C27D4EB5900180D39 /* LongpressGestureClass.swift in Sources */,
