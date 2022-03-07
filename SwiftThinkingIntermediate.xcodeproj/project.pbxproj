@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79987A4A27D5744D0024F943 /* CordableClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79987A4927D5744D0024F943 /* CordableClass.swift */; };
+		79987A4C27D5838B0024F943 /* DownloadWithEscapingClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79987A4B27D5838B0024F943 /* DownloadWithEscapingClass.swift */; };
 		79E94E3E27D4EAD800180D39 /* SwiftThinkingIntermediateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E94E3D27D4EAD800180D39 /* SwiftThinkingIntermediateApp.swift */; };
 		79E94E4027D4EAD800180D39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E94E3F27D4EAD800180D39 /* ContentView.swift */; };
 		79E94E4227D4EAD900180D39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79E94E4127D4EAD900180D39 /* Assets.xcassets */; };
@@ -26,9 +28,14 @@
 		79EA9CE927D5383500C75565 /* WeakselfClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EA9CE827D5383500C75565 /* WeakselfClass.swift */; };
 		79EA9CEB27D53CD000C75565 /* typealiasClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EA9CEA27D53CD000C75565 /* typealiasClass.swift */; };
 		79EA9CED27D53E5800C75565 /* EscapingClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EA9CEC27D53E5800C75565 /* EscapingClass.swift */; };
+		79ECBA5027D68C7E00F77663 /* DownloadDataCombineClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79ECBA4F27D68C7E00F77663 /* DownloadDataCombineClass.swift */; };
+		79ECBA5227D6945900F77663 /* TimerOnReceiveClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79ECBA5127D6945900F77663 /* TimerOnReceiveClass.swift */; };
+		79ECBA5427D69A6A00F77663 /* PublisherSubscriberCombineClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79ECBA5327D69A6A00F77663 /* PublisherSubscriberCombineClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		79987A4927D5744D0024F943 /* CordableClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CordableClass.swift; sourceTree = "<group>"; };
+		79987A4B27D5838B0024F943 /* DownloadWithEscapingClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithEscapingClass.swift; sourceTree = "<group>"; };
 		79E94E3A27D4EAD800180D39 /* SwiftThinkingIntermediate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftThinkingIntermediate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79E94E3D27D4EAD800180D39 /* SwiftThinkingIntermediateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftThinkingIntermediateApp.swift; sourceTree = "<group>"; };
 		79E94E3F27D4EAD800180D39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +56,9 @@
 		79EA9CE827D5383500C75565 /* WeakselfClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakselfClass.swift; sourceTree = "<group>"; };
 		79EA9CEA27D53CD000C75565 /* typealiasClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = typealiasClass.swift; sourceTree = "<group>"; };
 		79EA9CEC27D53E5800C75565 /* EscapingClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingClass.swift; sourceTree = "<group>"; };
+		79ECBA4F27D68C7E00F77663 /* DownloadDataCombineClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadDataCombineClass.swift; sourceTree = "<group>"; };
+		79ECBA5127D6945900F77663 /* TimerOnReceiveClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerOnReceiveClass.swift; sourceTree = "<group>"; };
+		79ECBA5327D69A6A00F77663 /* PublisherSubscriberCombineClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublisherSubscriberCombineClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +126,11 @@
 				79EA9CE827D5383500C75565 /* WeakselfClass.swift */,
 				79EA9CEA27D53CD000C75565 /* typealiasClass.swift */,
 				79EA9CEC27D53E5800C75565 /* EscapingClass.swift */,
+				79987A4927D5744D0024F943 /* CordableClass.swift */,
+				79987A4B27D5838B0024F943 /* DownloadWithEscapingClass.swift */,
+				79ECBA4F27D68C7E00F77663 /* DownloadDataCombineClass.swift */,
+				79ECBA5127D6945900F77663 /* TimerOnReceiveClass.swift */,
+				79ECBA5327D69A6A00F77663 /* PublisherSubscriberCombineClass.swift */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -190,12 +205,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79987A4A27D5744D0024F943 /* CordableClass.swift in Sources */,
 				79E94E5127D4F1DD00180D39 /* RotationGestureClass.swift in Sources */,
 				79EA9CEB27D53CD000C75565 /* typealiasClass.swift in Sources */,
+				79ECBA5427D69A6A00F77663 /* PublisherSubscriberCombineClass.swift in Sources */,
 				79E94E6127D5177700180D39 /* SortFilterMapClass.swift in Sources */,
+				79987A4C27D5838B0024F943 /* DownloadWithEscapingClass.swift in Sources */,
 				79E94E5D27D511F300180D39 /* MaskClass.swift in Sources */,
 				79E94E5F27D5153600180D39 /* HashableProtocolClass.swift in Sources */,
 				79EA9CE727D531CE00C75565 /* BackgroundThreadsClass.swift in Sources */,
+				79ECBA5227D6945900F77663 /* TimerOnReceiveClass.swift in Sources */,
 				79E94E5927D50ADF00180D39 /* GeometryReaderClass.swift in Sources */,
 				79EA9CED27D53E5800C75565 /* EscapingClass.swift in Sources */,
 				79E94E5727D507B600180D39 /* ScrollViewReaderClass.swift in Sources */,
@@ -206,6 +225,7 @@
 				79E94E5B27D50E1800180D39 /* MultipleSheetsClass.swift in Sources */,
 				79E94E4C27D4EB5900180D39 /* LongpressGestureClass.swift in Sources */,
 				79E94E4F27D4EFCF00180D39 /* MagnificationClass.swift in Sources */,
+				79ECBA5027D68C7E00F77663 /* DownloadDataCombineClass.swift in Sources */,
 				79E94E3E27D4EAD800180D39 /* SwiftThinkingIntermediateApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
