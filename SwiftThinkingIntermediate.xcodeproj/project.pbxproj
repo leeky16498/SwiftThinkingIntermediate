@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		791D745D27E50536009C3573 /* CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791D745C27E50536009C3573 /* CoreDataClass.swift */; };
+		791D746027E50609009C3573 /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 791D745E27E50609009C3573 /* FruitsContainer.xcdatamodeld */; };
+		791D746227E514CD009C3573 /* CoreDataRelationshipClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791D746127E514CD009C3573 /* CoreDataRelationshipClass.swift */; };
+		791D746527E515B2009C3573 /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 791D746327E515B2009C3573 /* CoreDataContainer.xcdatamodeld */; };
 		794748F027D7E3990083CDFD /* FilemanagerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794748EF27D7E3990083CDFD /* FilemanagerClass.swift */; };
 		794748F227D7F00A0083CDFD /* NSCacheClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794748F127D7F00A0083CDFD /* NSCacheClass.swift */; };
 		794748F427D7F5780083CDFD /* DownloadSaveImageCacheClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794748F327D7F5780083CDFD /* DownloadSaveImageCacheClass.swift */; };
@@ -45,6 +49,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		791D745C27E50536009C3573 /* CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataClass.swift; sourceTree = "<group>"; };
+		791D745F27E50609009C3573 /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
+		791D746127E514CD009C3573 /* CoreDataRelationshipClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipClass.swift; sourceTree = "<group>"; };
+		791D746427E515B2009C3573 /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
 		794748EF27D7E3990083CDFD /* FilemanagerClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilemanagerClass.swift; sourceTree = "<group>"; };
 		794748F127D7F00A0083CDFD /* NSCacheClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSCacheClass.swift; sourceTree = "<group>"; };
 		794748F327D7F5780083CDFD /* DownloadSaveImageCacheClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadSaveImageCacheClass.swift; sourceTree = "<group>"; };
@@ -203,7 +211,11 @@
 				79ECBA5327D69A6A00F77663 /* PublisherSubscriberCombineClass.swift */,
 				794748EF27D7E3990083CDFD /* FilemanagerClass.swift */,
 				794748F127D7F00A0083CDFD /* NSCacheClass.swift */,
+				791D745C27E50536009C3573 /* CoreDataClass.swift */,
+				791D745E27E50609009C3573 /* FruitsContainer.xcdatamodeld */,
 				794748F527D7F5E80083CDFD /* DownloadImages */,
+				791D746127E514CD009C3573 /* CoreDataRelationshipClass.swift */,
+				791D746327E515B2009C3573 /* CoreDataContainer.xcdatamodeld */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -279,11 +291,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				79987A4A27D5744D0024F943 /* CordableClass.swift in Sources */,
+				791D745D27E50536009C3573 /* CoreDataClass.swift in Sources */,
+				791D746027E50609009C3573 /* FruitsContainer.xcdatamodeld in Sources */,
 				7947490927D801780083CDFD /* PhotoModelFileManager.swift in Sources */,
 				7947490727D800940083CDFD /* PhotoModelCacheManager.swift in Sources */,
 				794748F427D7F5780083CDFD /* DownloadSaveImageCacheClass.swift in Sources */,
 				79E94E5127D4F1DD00180D39 /* RotationGestureClass.swift in Sources */,
 				79EA9CEB27D53CD000C75565 /* typealiasClass.swift in Sources */,
+				791D746527E515B2009C3573 /* CoreDataContainer.xcdatamodeld in Sources */,
 				79ECBA5427D69A6A00F77663 /* PublisherSubscriberCombineClass.swift in Sources */,
 				79E94E6127D5177700180D39 /* SortFilterMapClass.swift in Sources */,
 				79987A4C27D5838B0024F943 /* DownloadWithEscapingClass.swift in Sources */,
@@ -305,6 +320,7 @@
 				794748FF27D7F8100083CDFD /* PhotoModelDataService.swift in Sources */,
 				79E94E5527D4F52100180D39 /* DragGestureClass2.swift in Sources */,
 				7947490127D7FB8A0083CDFD /* DownloadingImagesRow.swift in Sources */,
+				791D746227E514CD009C3573 /* CoreDataRelationshipClass.swift in Sources */,
 				79E94E5B27D50E1800180D39 /* MultipleSheetsClass.swift in Sources */,
 				79E94E4C27D4EB5900180D39 /* LongpressGestureClass.swift in Sources */,
 				79E94E4F27D4EFCF00180D39 /* MagnificationClass.swift in Sources */,
@@ -511,6 +527,29 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		791D745E27E50609009C3573 /* FruitsContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				791D745F27E50609009C3573 /* FruitsContainer.xcdatamodel */,
+			);
+			currentVersion = 791D745F27E50609009C3573 /* FruitsContainer.xcdatamodel */;
+			path = FruitsContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		791D746327E515B2009C3573 /* CoreDataContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				791D746427E515B2009C3573 /* CoreDataContainer.xcdatamodel */,
+			);
+			currentVersion = 791D746427E515B2009C3573 /* CoreDataContainer.xcdatamodel */;
+			path = CoreDataContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 79E94E3227D4EAD800180D39 /* Project object */;
 }
